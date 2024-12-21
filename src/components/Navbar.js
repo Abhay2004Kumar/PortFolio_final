@@ -12,7 +12,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
-import { MdOutlineFeedback } from "react-icons/md";
+// import { MdOutlineFeedback } from "react-icons/md";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);

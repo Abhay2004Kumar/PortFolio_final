@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { useForm, ValidationError } from "@formspree/react";
 import toast, { Toaster } from "react-hot-toast"; // Import react-hot-toast
@@ -24,12 +24,17 @@ function Contact() {
   };
 
   const handleFormSubmit = (e) => {
+    e.preventDefault(); // Prevent default form submission
     handleSubmit(e);
+  };
+
+  // Reset form and show toast on successful submission
+  useEffect(() => {
     if (state.succeeded) {
       toast.success("Thanks for contacting!"); // Show toast on success
       setFormFields({ name: "", email: "", message: "" }); // Clear form fields
     }
-  };
+  }, [state.succeeded]); // Dependency on state.succeeded to trigger effect
 
   return (
     <div className={styles["contact-page"]}> {/* Apply CSS module class */}

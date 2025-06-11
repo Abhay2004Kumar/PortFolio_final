@@ -8,7 +8,7 @@ This portfolio is deployed on **Netlify**.
 To deploy your own fork:
 
 1. Clone the repository  
-   `git clone https://github.com/abhayk1206/portfolio.git`
+   `git clone https://github.com/Abhay2004Kumar/PortFolio_final.git`
 
 2. Install dependencies  
    `npm install`

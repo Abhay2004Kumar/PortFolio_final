@@ -20,17 +20,13 @@ To deploy your own fork:
 
 ---
 
-## 📸 Screenshots
 
-> _(Add relevant screenshots of your site here if you'd like)_
-
----
 
 ## 🧑‍💼 Author
 
 **Abhay Kumar**  
 Competitive Programmer & Full-Stack Developer  
-📫 [abhaykr.dev@gmail.com](mailto:abhaykr.dev@gmail.com)
+📫 [abhaykr.dev@gmail.com](mailto:abhay220504.business@gmail.com)
 
 ---
 

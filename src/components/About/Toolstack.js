@@ -4,8 +4,9 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiVercel,
-SiAndroidstudio
+
 } from "react-icons/si";
+import { DiDocker } from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -14,9 +15,7 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAndroidstudio />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
@@ -24,6 +23,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker/>
+      </Col>
+      
     </Row>
   );
 }

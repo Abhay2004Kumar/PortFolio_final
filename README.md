@@ -26,7 +26,7 @@ To deploy your own fork:
 
 **Abhay Kumar**  
 Competitive Programmer & Full-Stack Developer  
-📫 [abhaykr.dev@gmail.com](mailto:abhay220504.business@gmail.com)
+📫 [abhay220504.business@gmail.com](mailto:abhay220504.business@gmail.com)
 
 ---
 
